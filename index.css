@@ -210,8 +210,25 @@ a:link{
     color: #FFFFFF;
     text-align: center;
     padding-bottom: 5%;
+    margin: 0%;
 
 }
 
+/* FOOTER */
+.img-footer{
+    
+    
+}
 
+.footer{
+    background: rgba(62, 59, 59, 0.88);
+    
+}
+
+.icones{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    flex-wrap: wrap;
+}
 
