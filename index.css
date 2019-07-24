@@ -177,6 +177,41 @@ a:link{
     flex-wrap: wrap;
 }
 
+.contact{
+    background: linear-gradient(180deg, #46BEB2 0%, #3A7C95 100%);
+}
+.titulo-3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 66px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.paragrafo-contato{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #3E3B3B;
+}
+
+.email{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 5%;
+
+}
 
 
 
