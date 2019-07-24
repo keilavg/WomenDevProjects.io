@@ -1,0 +1,106 @@
+
+html, body {
+   width: 100%;
+   margin: 0;
+   height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* BANNER */
+
+.header{   
+    background: linear-gradient(180deg, #2F4076 0%, rgba(47, 64, 118, 0.84) 100%);
+
+}
+
+.menu{
+    justify-content: space-between;
+    display: flex;
+    padding: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+    
+}
+
+nav{
+
+    display: flex;
+    color: #54D1BB;
+    flex-wrap: wrap;
+    
+
+}
+
+.linknav  {
+    display: flex;
+    list-style-type: none;
+    align-content: center;
+    flex-wrap: wrap;
+   
+
+}
+
+a:link{
+    padding-left: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration:none;
+    color: aqua;
+    
+}
+
+.intro{
+    justify-content: space-between;
+    display: flex;
+    padding: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap-reverse;
+}
+
+.titulo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 84px;
+   color: #ffffff;
+}
+
+.color-dev{
+    color: #54D1BB;
+}
+
+.imagemwoman{
+    width: 310px;
+    height: 312px;
+    left: 67.41%;
+    right: 11.03%;
+    top: 24.53%;
+    bottom: 38.57%;
+    border-radius: 50%;
+  
+}
+
+.apresentacao{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 50px;
+text-align: center;
+
+color: #FFFFFF;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+/* MAIN*/
+
