@@ -91,16 +91,90 @@ a:link{
 
 .apresentacao{
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 32px;
-line-height: 50px;
-text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
 
-color: #FFFFFF;
-margin-left: 10%;
-margin-right: 10%;
+    color: #FFFFFF;
+    margin: 0% 10% 0% 10%;
 }
 
 /* MAIN*/
+
+.main{
+    background: rgba(229, 229, 229, 0.71);
+}
+
+.titulo-2{
+    padding-top: 3%;
+    margin:0%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    text-align: center;
+    color: #2F4076;
+
+}
+
+
+
+.unicard{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 279px;;
+    height: 351px;   
+    margin-right: 7%; 
+    margin-left: 7%;
+    text-align: center;
+}
+
+.imagemcard{
+    widows: 119px;;
+    height:120px; 
+}
+
+.titulo-card{
+    text-align: left;
+    margin-left: 5%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #2F4076;
+
+}
+
+.paragrafo-card{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+
+    color: #3E3B3B;
+    
+    margin: 5%;
+}
+
+.cardtopo{ 
+    display: flex;
+    justify-content: center;
+    margin: 4% 4% 2% 4%;
+    flex-wrap: wrap;
+    
+}
+
+.cardbaixo{
+    display: flex;
+    justify-content: center;
+    margin: 0% 4% 2% 4%;
+    flex-wrap: wrap;
+}
+
 
